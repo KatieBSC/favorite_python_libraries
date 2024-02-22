@@ -1,4 +1,4 @@
-# Spoonfuls of Sugar
+# Favorite Python Libraries
 
 This repo contains a collection of examples and slides to walk through a few
 of my favorite Python libraries and extensions.
