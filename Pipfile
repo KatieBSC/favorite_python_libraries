@@ -11,6 +11,8 @@ attrs = "~=23.1"
 notebook = "==6.5.5"
 rise = "==5.7.1"
 traitlets = "<5.10"
+plotly = "==5.19.0"
+pandas = "~=2.2"
 
 [dev-packages]
 
