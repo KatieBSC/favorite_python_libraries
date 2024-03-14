@@ -3,8 +3,8 @@
 This repo contains a collection of examples and slides to walk through a few
 of my favorite Python libraries and extensions.
 
-### Fun packages cited in this talk:
-- [RISE](https://github.com/damianavila/RISE)
+### Fun packages cited in this repo:
+- [jupyterlab_rise](https://github.com/jupyterlab-contrib/rise)
 - [attrs](https://github.com/python-attrs/attrs)
 - [docopt](https://github.com/docopt/docopt)
 
@@ -24,7 +24,7 @@ pipenv shell
 ## Slides
 
 ```bash
-jupyter notebook notebooks/slides.ipynb
+jupyter lab notebooks/slides.ipynb
 ```
 
 
