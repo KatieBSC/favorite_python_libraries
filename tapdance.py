@@ -119,4 +119,4 @@ if __name__ == "__main__":
 
     combination = get_combination(steps, args["--bpm"], args["--measures"])
 
-    print(combination)
+    print(f"{combination = }")
