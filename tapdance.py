@@ -31,6 +31,7 @@ class TapStep:
         sounds: Number of sounds in the step.
 
     Raises:
+        TypeError: If `name` is not a string.
         ValueError: If length of `name` is less than 1.
         ValueError: If `sounds` is greater than 4 or less than 1.
 
