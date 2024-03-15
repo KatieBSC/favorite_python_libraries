@@ -16,6 +16,8 @@ class TestTapStep(unittest.TestCase):
     def test_name_validator(self):
         with self.assertRaises(ValueError):
             TapStep("", 3)
+        with self.assertRaises(TypeError):
+            TapStep(99, 3)
 
 
 class TestGetSteps(unittest.TestCase):

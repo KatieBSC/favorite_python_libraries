@@ -36,7 +36,7 @@ class TapStep:
 
     """
 
-    name: str = field(validator=validators.min_len(1))
+    name: str = field(validator=[validators.instance_of(str), validators.min_len(1)])
     sounds: int = field(converter=int, validator=[validators.ge(1), validators.le(4)])
 
     @classmethod
@@ -119,4 +119,4 @@ if __name__ == "__main__":
 
     combination = get_combination(steps, args["--bpm"], args["--measures"])
 
-    print(f"{combination = }")
+    print(f"\n{combination = }\n")

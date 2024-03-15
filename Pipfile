@@ -5,13 +5,13 @@ name = "pypi"
 
 [packages]
 docopt = "==0.6.2"
-black = "~=23.9"
 schema = "~=0.7"
 attrs = "~=23.1"
 jupyterlab = "~=4.1"
 jupyterlab-rise = "==0.42.0"
 plotly = "==5.19.0"
 pandas = "~=2.2"
+black = {version = "~=24.2", extras = ["jupyter"]}
 
 [dev-packages]
 
