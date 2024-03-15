@@ -1,12 +1,13 @@
 # Favorite Python Libraries
 
 This repo contains a collection of examples and slides to walk through a few
-of my favorite Python libraries and extensions.
+of my favorite Python tools.
 
-### Fun packages cited in this repo:
+### Fun tools cited in this repo:
 - [jupyterlab_rise](https://github.com/jupyterlab-contrib/rise)
 - [attrs](https://github.com/python-attrs/attrs)
 - [docopt](https://github.com/docopt/docopt)
+- [schema](https://github.com/keleshev/schema)
 
 ## Installation
 
@@ -26,7 +27,6 @@ pipenv shell
 ```bash
 jupyter lab notebooks/slides.ipynb
 ```
-
 
 ## Demo: Tap Dance Combination Generator
 
